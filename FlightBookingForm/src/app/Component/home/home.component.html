@@ -1,0 +1,41 @@
+
+<header>
+  <div class = "head">
+    <p class="p101">FlyAway.com</p>
+  </div>
+</header>
+
+<div class="HomeBoder">
+
+  
+  <div class = "TaskBar">
+    
+    <ul><li><a routerLink = "/home" id="home">Home</a></li></ul>
+    <ul><li><a routerLink = "/contact" id="home">contact</a></li></ul>
+    <ul><li><a routerLink = "/about" id="home">about us</a></li></ul>
+    
+  </div>
+
+
+ <div class = "FormBoader">
+  First name:<br>
+  <input type="text" class= "text" name="firstname" value="" placeholder="firstname" [(ngModel)] = "firstname"><br>
+  Last name:<br>
+  <input type="text" class= "text" name="lastname" value="" placeholder="lasttname" [(ngModel)] = "lastname"><br>
+  departure:<br>
+  <input type="text" class= "text" name="departure" value="" placeholder="departure" [(ngModel)] = "departure"><br>
+  departure date <br>
+  <input type="date" class= "text" name="ddate" max="9090-12-31" ng-model = "ddate"><br>
+  arrival <br>
+  <input type="text" class= "text" name="arrival" value="" placeholder="arrival" [(ngModel)] = "arrival"><br>
+  
+  
+  <br>
+  <input type="submit" (click) =  "btnSubmit()"   class="text">
+ </div>
+
+</div> 
+<div class="footer"><p ><strong>created by vhuhwavho</strong></p></div>
+<router-outlet></router-outlet>
+
+

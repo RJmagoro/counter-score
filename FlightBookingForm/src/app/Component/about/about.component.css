@@ -1,0 +1,40 @@
+li,ul {
+    float:left; 
+    list-style-type: none;
+    position: relative;
+    left: -10;
+  
+    }
+.TaskBar{
+    margin-top: 0em;
+    height: 3em;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(55, 0, 255)}
+    .head{
+        width: 100%;  
+        background-color: white;
+        height: 3em;
+        margin-top: 0em;
+    }
+    .HomeBoder{
+        width: 100%;  
+        background-color:aqua;
+        height: 50em;
+    }    
+    .p101{
+        font-size: 2em;
+        text-align: center
+    }
+    #home{
+        color :white;  
+    }
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(3, 7, 223);
+        color: white;
+        text-align: center;
+    }

@@ -1,0 +1,103 @@
+<div class="nav">
+  
+      <a href="Rent.html">Hire Car</a>&nbsp;
+      <a href="explore.html">Explore</a>&nbsp;
+      <a href="Rent.html">About Us</a>
+   
+
+</div>
+<div class="form-container">
+    <h1>Bookings </h1>
+
+First Name:<br>
+<input type="text" class="textbox"  [(ngModel)]="fname" placeholder="Enter Your Firstname">
+<label for="name"></label>
+<br>
+Last Name:<br>
+<input type="text" class="textbox" [(ngModel)]="lname" placeholder="Enter Your Surname">
+<br>
+ID Number/Passport:<br>
+<input type="text" class="textbox"  [(ngModel)]="id" placeholder="Enter Your ID number/Passport No.">
+<br>
+Cell Number:<br>
+<input type="text" class="textbox" [(ngModel)]="cell" placeholder="Enter Your Cellnumber">
+<label for="name"></label>
+<br>
+Email Address:<br>
+<input type="text" class="textbox"  [(ngModel)]="email" placeholder="Enter Your Email Address">
+<label for="name"></label>
+<br>
+
+
+<div class="form-group">
+        
+        <div class="grid">
+        <div class="col-1-4 col-1-4-sm">
+          <div class="controls">
+                Arrive: <br>
+            <input type="date" id="arrive" class="textbox" [(ngModel)]="arrive" name="arrive" value="('Y-m-d'); ?>">
+            <label for="arrive" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;</label>
+          </div>      
+        </div>
+        <div class="col-1-4 col-1-4-sm">
+          <div class="controls">
+                Depart:<br>
+            <input type="date" id="depart" class="textbox" [(ngModel)]="depart" name="depart" value="('Y-m-d'); ?>" />
+            <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;</label>
+          </div>      
+        </div>
+          </div>
+          People:<br>
+          <div class="grid">
+        <div class="col-1-3 col-1-3-sm">
+          <div class="controls">
+            <i class="fa fa-sort"></i>
+            <select class="textbox" [(ngModel)]="People">
+              <option value="blank"></option>
+              <option value="1">1</option>
+              <option value="2" selected>2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+            <label for="fruit"><i class="fa fa-male"></i>&nbsp;&nbsp;</label>
+          </div>      
+        </div>
+        Room:<br>
+        <div class="col-1-3 col-1-3-sm">
+        <div class="controls">
+          <i class="fa fa-sort"></i>
+          <select class="textbox" [(ngModel)]="Room">
+            <option value="blank"></option>
+            <option value="deluxe" selected>With Bathroom</option>
+            <option value="Zuri-zimmer">Without Bathroom</option>
+          </select>
+          <label for="fruit"></label>
+         </div>     
+        </div>
+        Bedding:<br>
+        <div class="col-1-3 col-1-3-sm">
+        <div class="controls">
+          <i class="fa fa-sort"></i>
+          <select class="textbox" [(ngModel)]="Bedding">
+            <option value="blank"></option>
+            <option value="single-bed">Zweibett</option>
+            <option value="double-bed" selected>Doppelbett</option>
+          </select>
+          <label for="fruit"></label>
+         </div>     
+        </div>
+          
+         </div>
+          <div class="grid">
+            <h5 class="info-text">Please describe your needs e.g. Extra beds, children's cots</h5>
+            <br>
+            <div class="controls">
+              <textarea name="comments" class="textbox" [(ngModel)]="comments" id="comments"></textarea>
+              <label for="comments">Comments</label>
+              </div>
+<input class="submit" type="submit" (click)="onlogin()" value="Submit">
+<footer>Created By Mag-RJ</footer>
+
+</div>

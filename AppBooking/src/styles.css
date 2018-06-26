@@ -1,0 +1,125 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    text-align: center;
+}
+
+p{
+    align-content: center;
+    background-color: lightseagreen;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font: bold;
+    text-decoration-color: chocolate;
+    -moz-text-decoration-color: blue;
+    
+}
+button{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    border: none;
+    color: rgb(156, 8, 8);
+    padding: 12px 0;
+    float: right;
+    
+       
+       
+    }
+    body{
+        background-color: antiquewhite;
+        
+    }
+    .textbox { 
+        background-color: antiquewhite;
+        -moz-border-radius-topright: 30px;
+        -webkit-border-top-right-radius: 30px;
+        border-top-right-radius: 30px;
+        -moz-border-radius-bottomleft: 30px;
+        -webkit-border-bottom-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border: 1px solid #848484;
+        outline:0; 
+        height:25px; 
+        width: 275px; 
+        padding-right:15px; 
+        padding-left:15px; 
+        display: inline-block;
+        cursor: pointer;
+        color: brown;
+        font-family:  serif;
+        size: 19px;
+        
+      } 
+      input.submit {
+        display: inline-block;
+        cursor: pointer;
+        color: #FFFFFF;
+        padding: 9px 18px;
+        font-family: Arial;
+        font-size: 16px;
+        border-radius: 5px;
+        background: linear-gradient(180deg, #ff8c00 5%, #ce7910 100%);
+        box-shadow: 0px 10px 14px -7px #616174;
+    }
+    input.submit:hover {
+        background: linear-gradient(180deg, #06049e 5%, #060490 100%);
+    }
+    input.submit:active {
+        position: relative;
+        top: 1px;
+    }
+    .textbox{
+        background-color: aquamarine;
+        text-decoration-color: black;
+        text-size-adjust: 50%;
+            
+    }
+    h1{
+        align-content: center;
+    background-color: lightseagreen;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font: bold;
+    text-decoration-color: chocolate;
+    -moz-text-decoration-color: blue;
+    box-shadow: white;
+    }
+    .nav{
+        text-align: right;
+        
+        margin: 10px;
+        height:50px ;
+        background-color:cornflowerblue;
+        box-shadow: 5px 5px 5px lightblue,5px 5px 5px lightblue;
+    }
+    a:link{
+        color:yellow;
+    }
+    a:visited{
+        color:white;
+    
+    }
+    .nav ul li a:hover{
+        color: hotpink;
+        background-color:lightcyan;
+    
+    }
+    a:active{
+        color:blue;
+       
+    }
+    footer{
+        border: 1px groove black;
+        background:cornflowerblue;
+        color:springgreen;
+        bottom: 0px;
+        width: 100%;
+        position: fixed;
+        vertical-align: middle;
+        text-align: center;
+        line-height: normal;
+        padding: 0;
+        
+    
+    }
